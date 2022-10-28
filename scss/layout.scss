@@ -230,7 +230,7 @@ button {
 #footer {
   background-color: #222;
   color: rgba(255, 255, 255, 0.5);
-  padding: 70px 0;
+  padding: 50px 20px;
   .container {
     width: 1840px;
     position: relative;
@@ -256,14 +256,13 @@ button {
       }
     }
     .family-site {
-      position: absolute;
-      right: 0;
-      bottom: 30px;
+      margin-top: 20px;
     }
   }
   .util-box {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     .util {
       display: flex;
       li:nth-child(2) {
@@ -273,6 +272,7 @@ button {
     }
     .copyright {
       font-size: 14px;
+      margin-top: 20px;
     }
   }
 }
@@ -295,9 +295,10 @@ button {
     position: absolute;
     bottom: 40px;
     margin-bottom: -1px;
-    opacity: 0;
+    //opacity: 0;
     //transform: translateY(-50px);
-    transition: all 0.25s ease;
+    //transition: all 0.25s ease;
+    display: none;
     pointer-events: none;
     li {
       margin-top: -1px;
